@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		3890D8902113DFC3002D87F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890D88F2113DFC3002D87F8 /* AppDelegate.swift */; };
-		3890D8922113DFC3002D87F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890D8912113DFC3002D87F8 /* ViewController.swift */; };
 		3890D8952113DFC3002D87F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3890D8932113DFC3002D87F8 /* Main.storyboard */; };
 		3890D8972113DFC5002D87F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3890D8962113DFC5002D87F8 /* Assets.xcassets */; };
 		3890D89A2113DFC5002D87F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3890D8982113DFC5002D87F8 /* LaunchScreen.storyboard */; };
+		3890D8AC2113FC1F002D87F8 /* CatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890D8AB2113FC1F002D87F8 /* CatsTableViewController.swift */; };
+		38FCF56A21155DD400075E0C /* CatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCF56921155DD400075E0C /* CatsTableViewCell.swift */; };
+		38FCF56C2115624D00075E0C /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCF56B2115624D00075E0C /* Cat.swift */; };
+		38FCF56E2115628700075E0C /* CatMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCF56D2115628700075E0C /* CatMedia.swift */; };
+		38FCF570211562E900075E0C /* CatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCF56F211562E900075E0C /* CatService.swift */; };
+		8BFF5BF110BFD2651D49BFAD /* Pods_CatStoryBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90745645A533C8F89051C58 /* Pods_CatStoryBoard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3890D88C2113DFC3002D87F8 /* CatStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3890D88F2113DFC3002D87F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3890D8912113DFC3002D87F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3890D8942113DFC3002D87F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3890D8962113DFC5002D87F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3890D8992113DFC5002D87F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3890D89B2113DFC5002D87F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3890D8AB2113FC1F002D87F8 /* CatsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsTableViewController.swift; sourceTree = "<group>"; };
+		38FCF56921155DD400075E0C /* CatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsTableViewCell.swift; sourceTree = "<group>"; };
+		38FCF56B2115624D00075E0C /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		38FCF56D2115628700075E0C /* CatMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatMedia.swift; sourceTree = "<group>"; };
+		38FCF56F211562E900075E0C /* CatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatService.swift; sourceTree = "<group>"; };
+		8309E3C5403A2F3E4B4E051B /* Pods-CatStoryBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatStoryBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatStoryBoard/Pods-CatStoryBoard.release.xcconfig"; sourceTree = "<group>"; };
+		B90745645A533C8F89051C58 /* Pods_CatStoryBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatStoryBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D840A0BC6F5B4FD8782F1728 /* Pods-CatStoryBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatStoryBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatStoryBoard/Pods-CatStoryBoard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFF5BF110BFD2651D49BFAD /* Pods_CatStoryBoard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +51,13 @@
 		3890D8832113DFC3002D87F8 = {
 			isa = PBXGroup;
 			children = (
+				3890D8A62113E128002D87F8 /* Models */,
+				3890D8A52113E10C002D87F8 /* Views */,
+				3890D8A42113E0F0002D87F8 /* Networking */,
 				3890D88E2113DFC3002D87F8 /* CatStoryBoard */,
 				3890D88D2113DFC3002D87F8 /* Products */,
+				E4AF37566C407CA566F24257 /* Pods */,
+				F4F4F7B8F1143153AD012F26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +73,55 @@
 			isa = PBXGroup;
 			children = (
 				3890D88F2113DFC3002D87F8 /* AppDelegate.swift */,
-				3890D8912113DFC3002D87F8 /* ViewController.swift */,
 				3890D8932113DFC3002D87F8 /* Main.storyboard */,
 				3890D8962113DFC5002D87F8 /* Assets.xcassets */,
 				3890D8982113DFC5002D87F8 /* LaunchScreen.storyboard */,
 				3890D89B2113DFC5002D87F8 /* Info.plist */,
 			);
 			path = CatStoryBoard;
+			sourceTree = "<group>";
+		};
+		3890D8A42113E0F0002D87F8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				38FCF56F211562E900075E0C /* CatService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3890D8A52113E10C002D87F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3890D8AB2113FC1F002D87F8 /* CatsTableViewController.swift */,
+				38FCF56921155DD400075E0C /* CatsTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3890D8A62113E128002D87F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38FCF56B2115624D00075E0C /* Cat.swift */,
+				38FCF56D2115628700075E0C /* CatMedia.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4AF37566C407CA566F24257 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D840A0BC6F5B4FD8782F1728 /* Pods-CatStoryBoard.debug.xcconfig */,
+				8309E3C5403A2F3E4B4E051B /* Pods-CatStoryBoard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4F4F7B8F1143153AD012F26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90745645A533C8F89051C58 /* Pods_CatStoryBoard.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3890D89E2113DFC5002D87F8 /* Build configuration list for PBXNativeTarget "CatStoryBoard" */;
 			buildPhases = (
+				91034C94C0BF514D6CB4FB05 /* [CP] Check Pods Manifest.lock */,
 				3890D8882113DFC3002D87F8 /* Sources */,
 				3890D8892113DFC3002D87F8 /* Frameworks */,
 				3890D88A2113DFC3002D87F8 /* Resources */,
+				580661B035EEF7F5B55A907E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +192,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		580661B035EEF7F5B55A907E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CatStoryBoard/Pods-CatStoryBoard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatStoryBoard/Pods-CatStoryBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91034C94C0BF514D6CB4FB05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatStoryBoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3890D8882113DFC3002D87F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3890D8922113DFC3002D87F8 /* ViewController.swift in Sources */,
+				38FCF570211562E900075E0C /* CatService.swift in Sources */,
+				38FCF56C2115624D00075E0C /* Cat.swift in Sources */,
+				38FCF56A21155DD400075E0C /* CatsTableViewCell.swift in Sources */,
+				38FCF56E2115628700075E0C /* CatMedia.swift in Sources */,
+				3890D8AC2113FC1F002D87F8 /* CatsTableViewController.swift in Sources */,
 				3890D8902113DFC3002D87F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +395,7 @@
 		};
 		3890D89F2113DFC5002D87F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D840A0BC6F5B4FD8782F1728 /* Pods-CatStoryBoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +414,7 @@
 		};
 		3890D8A02113DFC5002D87F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8309E3C5403A2F3E4B4E051B /* Pods-CatStoryBoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
